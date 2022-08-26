@@ -16,8 +16,7 @@ struct ContentView: View {
             IfElseView(canContinue: $canContinueToNextView)
         } else {
             VStack {
-                Text("We have no already navagite")
-            
+                Image(systemName: "mic")
                 Button {
                     canContinueToNextView.toggle()
                 } label: {

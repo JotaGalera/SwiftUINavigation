@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct NavigationView: View {
+struct NavigationItemView: View {
     var body: some View {
         Color.red
     }
